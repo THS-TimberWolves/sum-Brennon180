@@ -1,6 +1,6 @@
 # Get input from the user
 try:
-    user_number = int(input("Enter a number: "))
+    user_number = int(input()
 except ValueError:
     print("Invalid input. Please enter an integer.")
     exit()
@@ -15,4 +15,4 @@ while current_number <= user_number:
     current_number += 1
 
 # Print the result
-print(f"The sum of numbers from 1 to {user_number} is: {total_sum}")#for Summation code here
+print( total_sum)#for Summation code here
