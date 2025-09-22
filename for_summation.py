@@ -1,18 +1,11 @@
-# Get input from the user
-try:
-    user_number = int(input())
-except ValueError:
-    print("Invalid input. Please enter an integer.")
-    exit()
 
-# Initialize variables
-current_number = 1
+user_number = int(input())
+
+    
 total_sum = 0
 
-# Use a while loop to sum numbers from 1 to user_number
-while current_number <= user_number:
-    total_sum += current_number
-    current_number += 1
+for number in range(1, user_number + 1):
+    total_sum += number
 
-# Print the result
-print( total_sum)#for Summation code here
+print(total_sum)
+
