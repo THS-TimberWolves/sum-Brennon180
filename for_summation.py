@@ -1,6 +1,6 @@
 # Get input from the user
 try:
-    user_number = int(input()
+    user_number = int(input())
 except ValueError:
     print("Invalid input. Please enter an integer.")
     exit()
